@@ -27,16 +27,38 @@ function renderEvents(events) {
     });
 }
 
+function renderThisWeek(events) {
+    var i = 0
+    events.forEach(event => {
+        if (event.title.includes("\n")) event.title = "That's all for this week!"
+        switch(i) {
+            case 0:
+              document.getElementById("thisweek1title").innerText = event.title
+              document.getElementById("thisweek1date").innerText = event.date
+              break;
+            case 1:
+                document.getElementById("thisweek2title").innerText = event.title
+                document.getElementById("thisweek2date").innerText = event.date
+              break;
+            case 2:
+                document.getElementById("thisweek3title").innerText = event.title
+                document.getElementById("thisweek3date").innerText = event.date
+              break;
+          }
+          i++ 
+    }) 
+} 
+
 events = [
     {
-        title: "Jumma khutba with Mufti Yusuf",
+        title: "Jumma khutba with INK",
         description: "",
-        date: "Fri, March 24, 1:30pm - 2:15pm"
+        date: "Fri, March 31, 1:30pm - 2:15pm"
     },
     {
-        title: "Fundraising Madinatul Uloom",
+        title: "Fundraising CMLMD",
         description: "",
-        date: "Fri, March 24, 7:30pm - 8:30pm"
+        date: "Sat, April 1, 7:45pm - 8:45pm"
     },
     {
         title: "\n\n\n\n\n\n\n\n\n",
@@ -45,4 +67,8 @@ events = [
     },
 ]
 
-renderEvents(events)
+var path = window.location.pathname;
+var page = path.split("/").pop();
+
+if (page === "events.html") renderEvents(events)
+else if (page === "index.html") renderThisWeek(events)
