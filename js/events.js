@@ -67,10 +67,12 @@ events = [
     },
 ]
 
-var path = window.location.pathname;
-var page = path.split("/").pop();
+// DEV
+// var path = window.location.pathname;
+// var page = path.split("/").pop();
 
-console.log("this is the page: " + page)
+// PROD
+page = document.location.pathname.split("/").pop()
 
-if (page === "events.html") renderEvents(events)
-else if (page === "index.html") renderThisWeek(events)
+if (page === "events") renderEvents(events)
+else if (page === "") renderThisWeek(events)
