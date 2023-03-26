@@ -70,5 +70,7 @@ events = [
 var path = window.location.pathname;
 var page = path.split("/").pop();
 
+console.log("this is the page: " + page)
+
 if (page === "events.html") renderEvents(events)
 else if (page === "index.html") renderThisWeek(events)
