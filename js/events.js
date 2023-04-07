@@ -68,8 +68,8 @@ events = [
 ]
 
 // DEV
-var path = window.location.pathname;
-var page = path.split("/").pop();
+// var path = window.location.pathname;
+// var page = path.split("/").pop();
 
 // PROD
 page = document.location.pathname.split("/").pop()
