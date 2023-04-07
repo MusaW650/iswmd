@@ -53,12 +53,12 @@ events = [
     {
         title: "Jumma khutba with INK",
         description: "",
-        date: "Fri, March 31, 1:30pm - 2:15pm"
+        date: "Fri, April 7, 1:30pm - 2:15pm"
     },
     {
-        title: "Fundraising CMLMD",
+        title: "Fundraising ICNA",
         description: "",
-        date: "Sat, April 1, 7:45pm - 8:45pm"
+        date: "Sat, April 8, 8pm - 9pm"
     },
     {
         title: "\n\n\n\n\n\n\n\n\n",
@@ -68,11 +68,11 @@ events = [
 ]
 
 // DEV
-// var path = window.location.pathname;
-// var page = path.split("/").pop();
+var path = window.location.pathname;
+var page = path.split("/").pop();
 
 // PROD
 page = document.location.pathname.split("/").pop()
 
-if (page === "events") renderEvents(events)
-else if (page === "") renderThisWeek(events)
+if (page === "events") renderEvents(events) // remove .html in prod
+else if (page === "") renderThisWeek(events) // empty string in prod
