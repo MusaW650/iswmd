@@ -1,4 +1,6 @@
 function renderEvents(events) {
+    console.log("renderEvents")
+
     renderer = document.getElementById("renderer")
     events.forEach(element => {
         div = document.createElement("div")
@@ -28,37 +30,27 @@ function renderEvents(events) {
 }
 
 function renderThisWeek(events) {
-    var i = 0
+    console.log("renderThisWeek")
+
+    var i = 1
     events.forEach(event => {
         if (event.title.includes("\n")) event.title = "That's all for this week!"
-        switch(i) {
-            case 0:
-              document.getElementById("thisweek1title").innerText = event.title
-              document.getElementById("thisweek1date").innerText = event.date
-              break;
-            case 1:
-                document.getElementById("thisweek2title").innerText = event.title
-                document.getElementById("thisweek2date").innerText = event.date
-              break;
-            case 2:
-                document.getElementById("thisweek3title").innerText = event.title
-                document.getElementById("thisweek3date").innerText = event.date
-              break;
-          }
-          i++ 
+        document.getElementById(`thisweek${i}title`).innerText = event.title
+        document.getElementById(`thisweek${i}date`).innerText = event.date
+        i++ 
     }) 
 } 
 
 events = [
     {
-        title: "Jumma khutba with INK",
+        title: "Jummah khutba by Sh Haroon Baqai",
         description: "",
-        date: "Fri, April 7, 1:30pm - 2:15pm"
+        date: "Fri, April 14, 1:30pm - 2:15pm"
     },
     {
-        title: "Fundraising ICNA",
+        title: "Fundraising Al huda school",
         description: "",
-        date: "Sat, April 8, 8pm - 9pm"
+        date: "Fri, April 14, 7:30pm - 8:30pm"
     },
     {
         title: "\n\n\n\n\n\n\n\n\n",
