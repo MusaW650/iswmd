@@ -43,14 +43,19 @@ function renderThisWeek(events) {
 
 events = [
     {
-        title: "Jummah khutba by Sh Haroon Baqai",
+        title: "HHRD Fundraising",
         description: "",
-        date: "Fri, April 14, 1:30pm - 2:15pm"
+        date: "Sun, April 16, 8:15pm - 9:15pm"
     },
     {
-        title: "Fundraising Al huda school",
+        title: "Jummah khutba by Sh Saad Abbasi",
         description: "",
-        date: "Fri, April 14, 7:30pm - 8:30pm"
+        date: "Fri, April 28, 1:30pm - 2:15pm"
+    },
+    {
+        title: "Evening Halaqa with Tarif Shraim",
+        description: "",
+        date: "Fri, April 28, 7pm - 8pm"
     },
     {
         title: "\n\n\n\n\n\n\n\n\n",
