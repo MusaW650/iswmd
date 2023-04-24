@@ -43,11 +43,6 @@ function renderThisWeek(events) {
 
 events = [
     {
-        title: "HHRD Fundraising",
-        description: "",
-        date: "Sun, April 16, 8:15pm - 9:15pm"
-    },
-    {
         title: "Jummah khutba by Sh Saad Abbasi",
         description: "",
         date: "Fri, April 28, 1:30pm - 2:15pm"
@@ -64,12 +59,11 @@ events = [
     },
 ]
 
-// DEV
-// var path = window.location.pathname;
-// var page = path.split("/").pop();
+var env = "prod" // "dev"
+var page
 
-// PROD
-page = document.location.pathname.split("/").pop()
+if (env === "dev") page = window.location.pathname.split("/").pop();
+else page = document.location.pathname.split("/").pop()
 
-if (page === "events") renderEvents(events) // remove .html in prod
-else if (page === "") renderThisWeek(events) // empty string in prod
+if (page === "events.html" || page === "events") renderEvents(events) // just events in prod
+else if (page === "index.html" || page === "") renderThisWeek(events) // empty string in prod
