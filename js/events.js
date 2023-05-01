@@ -43,14 +43,14 @@ function renderThisWeek(events) {
 
 events = [
     {
-        title: "Jummah khutba by Sh Saad Abbasi",
+        title: "Jummah khutba with INK",
         description: "",
-        date: "Fri, April 28, 1:30pm - 2:15pm"
+        date: "Fri, May 5, 1:30pm - 2:15pm"
     },
     {
-        title: "Evening Halaqa with Tarif Shraim",
+        title: "New Muslims Class!",
         description: "",
-        date: "Fri, April 28, 7pm - 8pm"
+        date: "Every Monday and Thursday at 8pm"
     },
     {
         title: "\n\n\n\n\n\n\n\n\n",
@@ -59,11 +59,6 @@ events = [
     },
 ]
 
-var env = "prod" // "dev"
-var page
-
-if (env === "dev") page = window.location.pathname.split("/").pop();
-else page = document.location.pathname.split("/").pop()
-
+var page = window.location.pathname.split("/").pop()
 if (page === "events.html" || page === "events") renderEvents(events) // just events in prod
 else if (page === "index.html" || page === "") renderThisWeek(events) // empty string in prod
