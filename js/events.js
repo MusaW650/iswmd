@@ -43,14 +43,14 @@ function renderThisWeek(events) {
 
 events = [
     {
-        title: "Jummah khutba with Saad Abbasi",
+        title: "Jummah khutba by Sh Tajani",
         description: "",
-        date: "Fri, May 12, 1:30pm - 2:15pm"
+        date: "Fri, May 19, 1:30pm - 2:15pm"
     },
     {
-        title: "Evening halaqah with Saad Abbasi",
+        title: "Evening halaqa with Sh Tajani",
         description: "",
-        date: "Fri, May 12, 7:30pm - 8:30pm"
+        date: "Fri, May 12, 7pm - 8pm"
     },
     {
         title: "New Muslims Class!",
