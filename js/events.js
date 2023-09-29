@@ -47,7 +47,7 @@ events = [
   {
     title: "Jummah khutba and evening halaqa by Brother Tarif Shraim",
     description: "",
-    date: "Jummah: Fri, September 15, 1:30pm - 2:15pm\nEvening Halaqa: after Maghrib",
+    date: "Jummah: Fri, September 29, 1:30pm - 2:15pm\nEvening Halaqa: after Maghrib",
   },
   
   {
