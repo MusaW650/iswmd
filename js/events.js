@@ -45,9 +45,9 @@ function renderThisWeek(events) {
 var myLink = link("See form below for timings", "https://docs.google.com/forms/d/e/1FAIpQLSc3ElhtahCHoDIjxgGYvCKhy62wzTNLnP9xlRPMadYVRpiEew/viewform");
 events = [
   {
-    title: "Jummah khutba and evening halaqa by Brother Tarif Shraim",
+    title: "Jummah khutba and evening halaqa by Sh Saad Abbasi ",
     description: "",
-    date: "Jummah: Fri, September 29, 1:30pm - 2:15pm\nEvening Halaqa: after Maghrib",
+    date: "Jummah: Fri, October 6, 1:30pm - 2:15pm\nEvening Halaqa followed by dinner: after Maghrib",
   },
   
   {
