@@ -45,7 +45,7 @@ function renderThisWeek(events) {
 var myLink = link("See form below for timings", "https://docs.google.com/forms/d/e/1FAIpQLSc3ElhtahCHoDIjxgGYvCKhy62wzTNLnP9xlRPMadYVRpiEew/viewform");
 events = [
   {
-    title: "Jummah khutba and evening halaqa by Sh Saad Abbasi ",
+    title: "Jummah khutba and evening halaqa by Shaykh Muhammad Ahmed ",
     description: "",
     date: "Jummah: Fri, October 6, 1:30pm - 2:15pm\nEvening Halaqa followed by dinner: after Maghrib",
   },
