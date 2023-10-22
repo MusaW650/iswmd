@@ -162,6 +162,12 @@ p {
   margin-bottom: 1rem;
 }
 
+/* .iframe {
+  width: "100%";
+  height: "505" 
+  frameborder="0" allowtransparency="true" 
+} */
+
 abbr[title],
 abbr[data-bs-original-title] {
   -webkit-text-decoration: underline dotted;
