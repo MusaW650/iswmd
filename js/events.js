@@ -45,9 +45,9 @@ function renderThisWeek(events) {
 var myLink = link("See form below for timings", "https://docs.google.com/forms/d/e/1FAIpQLSc3ElhtahCHoDIjxgGYvCKhy62wzTNLnP9xlRPMadYVRpiEew/viewform");
 events = [
   {
-    title: "Jummah khutba and evening halaqa by Shaykh Nazir Faruki",
+    title: "Jummah khutba and evening halaqa",
     description: "",
-    date: "Jummah: Fri, October 13, 1:30pm - 2:15pm\nEvening Halaqa followed by dinner: after Maghrib",
+    date: "Jummah: Fri, November 3, 1:30pm - 2:15pm\nEvening Halaqa followed by dinner: after Maghrib",
   },
   
   {
