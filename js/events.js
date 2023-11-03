@@ -45,13 +45,13 @@ function renderThisWeek(events) {
 var myLink = link("See form below for timings", "https://docs.google.com/forms/d/e/1FAIpQLSc3ElhtahCHoDIjxgGYvCKhy62wzTNLnP9xlRPMadYVRpiEew/viewform");
 events = [
   {
-    title: "Jummah khutba and evening halaqa",
+    title: "Jummah khutba and evening halaqa by Shaykh Nazir Faruki",
     description: "",
     date: "Jummah: Fri, November 3, 1:30pm - 2:15pm\nEvening Halaqa followed by dinner: after Maghrib",
   },
   
   {
-    title: "Seerah Class With Brother Abdul Waheed",
+    title: "Seerah Class with Shaykh Nazir Faruki",
     description: "",
     date: "Every Wednesday after Maghrib",
   },
