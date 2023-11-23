@@ -47,11 +47,11 @@ events = [
   {
     title: "Jummah khutba and evening halaqa",
     description: "",
-    date: "Jummah: Fri, November 17, 1:30pm - 2:15pm\nEvening Halaqa followed by dinner: after Isha",
+    date: "Jummah: Fri, November 24, 1:30pm - 2:15pm\nEvening Halaqa followed by dinner: after Isha",
   },
   
   {
-    title: "Seerah Class with Shaykh Nazir Faruki",
+    title: "Seerah Class with Imam Nazir Faruki",
     description: "",
     date: "Every Wednesday after Maghrib",
   },
