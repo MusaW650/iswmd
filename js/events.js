@@ -42,12 +42,13 @@ function renderThisWeek(events) {
     i++;
   });
 }
+
 var myLink = link("See form below for timings", "https://docs.google.com/forms/d/e/1FAIpQLSc3ElhtahCHoDIjxgGYvCKhy62wzTNLnP9xlRPMadYVRpiEew/viewform");
 events = [
   {
     title: "Jummah khutba and evening halaqa",
     description: "",
-    date: "Jummah: Fri, December 1, 1:30pm - 2:15pm\nEvening Halaqa followed by dinner: after Isha",
+    date: "Jummah: Fri, December 1, 1:30pm\nIsha: 7:30\n Halaqa: 7:45\nDinner to follow",
   },
   
   {
@@ -66,6 +67,9 @@ events = [
     date: "",
   },
 ];
+
+
+
 
 function link(text, href) {
     var link = document.createElement("a");
