@@ -48,7 +48,7 @@ events = [
   {
     title: "Jummah khutba and iftar",
     description: "",
-    date: "Jummah: Fri, March 22, 𝟭:𝟯𝟬𝗽𝗺\nIftar: Every Friday, Saturday and Sunday at sunset",
+    date: "Jummah: Fri, March 29, 𝟭:𝟯𝟬𝗽𝗺\nIftar: Every Friday, Saturday and Sunday at sunset",
   },
   
   {
