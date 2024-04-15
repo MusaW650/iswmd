@@ -48,7 +48,7 @@ events = [
   {
     title: "Jummah khutba and evening halaqah",
     description: "",
-    date: "Jummah: Fri, April 12, 𝟭:𝟯𝟬𝗽𝗺\nHalaqah: After Maghrib\nDinner to follow",
+    date: "Jummah: Fri, April 19, 𝟭:𝟯𝟬𝗽𝗺\nHalaqah: After Maghrib\nDinner to follow",
   },
   
   {
@@ -85,14 +85,6 @@ function link(text, href) {
     return link;  
 }
 
-// function jummahDate(){
-//     let today = new Date();
-//     if(today.getDay==0){
-//         let nextFriday = new Date(today);
-//         nextFriday.setDate(today.getDate() + (5 - today.getDay() + 7) % 7);
-//         return nextFriday.toLocaleDateString('en-US', { weekday: 'short',month: 'long', day: 'numeric' });
-//     }
-// }
 
 var page = window.location.pathname.split("/").pop();
 if (page === "events.html" || page === "events")
