@@ -48,7 +48,7 @@ events = [
   {
     title: "Jummah khutba and evening halaqah",
     description: "",
-    date: "Jummah: Fri, April 19, 𝟭:𝟯𝟬𝗽𝗺\nHalaqah: After Maghrib\nDinner to follow",
+    date: "Jummah: Fri, April 26, 𝟭:𝟯𝟬𝗽𝗺\nHalaqah: After Maghrib\nDinner to follow",
   },
   
   {
@@ -61,6 +61,7 @@ events = [
     description: "",
     date: myLink.textContent,
   },
+  
   {
     title: "\n\n\n\n\n\n\n\n\n",
     description: "",
