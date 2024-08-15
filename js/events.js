@@ -48,7 +48,7 @@ events = [
   {
     title: "Jummah khutba and evening halaqah",
     description: "",
-    date: "Jummah: Fri, August 9, 𝟭:𝟯𝟬𝗽𝗺\nDinner: Before Maghrib\nHalaqah to follow",
+    date: "Jummah: Fri, August 16, 𝟭:𝟯𝟬𝗽𝗺\nDinner: Before Maghrib\nHalaqah to follow",
   },
   
   {
