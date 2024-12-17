@@ -48,13 +48,13 @@ events = [
   {
     title: "Jummah khutba and evening halaqah",
     description: "",
-    date: "Jummah: Fri, December 20, 𝟭:𝟯𝟬𝗽𝗺\nHalaqa: After Isha\nDinner to follow",
+    date: "Jummah: Fri, "+jummahDate()+", 𝟭:𝟯𝟬𝗽𝗺\nHalaqa: After Isha\nDinner to follow",
   },
   
   {
     title: "Seerah Class with Imam Nazir Faruki",
     description: "",
-    date: "Every Wednesday after Maghrib",
+    date: "Every Wednesday after Isha",
   },
   {
     title: "Adult and Children Quran Classes",
@@ -70,7 +70,18 @@ events = [
 ];
 
 
+function jummahDate(){
+    var date = new Date(); 
+    var day = date.getDay(); 
+    const options = {
+        month: 'long',
+        day: 'numeric',
+      };
 
+    date.setDate(date.getDate() + (day === 5 ? 7 : (5 - day + 7) % 7));
+    
+    return date.toLocaleDateString("en-US",options);
+}
 
 function link(text, href) {
     var link = document.createElement("a");
