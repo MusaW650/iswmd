@@ -46,9 +46,9 @@ function renderThisWeek(events) {
 var myLink = link("See form below for timings", "https://docs.google.com/forms/d/e/1FAIpQLSc3ElhtahCHoDIjxgGYvCKhy62wzTNLnP9xlRPMadYVRpiEew/viewform");
 events = [
   {
-    title: "Jummah khutba and Iftaar",
+    title: "Jummah khutba and Halaqah",
     description: "",
-    date: "Jummah: Fri, "+jummahDate()+", 𝟭:𝟯𝟬𝗽𝗺\nIftaar: Every Friday, Saturday and Sunday at sunset",
+    date: "Jummah: Fri, "+jummahDate()+", 𝟭:𝟯𝟬𝗽𝗺\nHalaqah: Every Friday after Maghrib, dinner to follow",
   },
   
   {
