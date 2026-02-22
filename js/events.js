@@ -46,15 +46,15 @@ function renderThisWeek(events) {
 var myLink = link("See form below for timings", "https://docs.google.com/forms/d/e/1FAIpQLSc3ElhtahCHoDIjxgGYvCKhy62wzTNLnP9xlRPMadYVRpiEew/viewform");
 events = [
   {
-    title: "Jummah khutba and Halaqah",
+    title: "Friday Jummah",
     description: "",
-    date: "Jummah: Fri, "+jummahDate()+", 𝟭:𝟯𝟬𝗽𝗺\nHalaqah: Every Friday after Maghrib, dinner to follow",
+    date: "First Jummah:\nKhutba at 12:30pm\nIqama at 1:00pm\n\nSecond Jummah:\nKhutba at 1:30pm\nIqama at 2:00pm",
   },
   
   {
-    title: "Seerah Class with Imam Nazir Faruki",
+    title: "Taraweeh Prayer",
     description: "",
-    date: "Every Wednesday after Isha",
+    date: "Every day after Isha",
   },
   {
     title: "Adult and Children Quran Classes",
