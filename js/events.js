@@ -48,7 +48,7 @@ events = [
   {
     title: "Friday Jummah",
     description: "",
-    date: "First Jummah:\nKhutba at 12:30pm\nIqama at 1:00pm\n\nSecond Jummah:\nKhutba at 1:30pm\nIqama at 2:00pm",
+    date: "First Jummah:\nKhutba at 1:00pm\nIqama at 1:30pm\n\nSecond Jummah:\nKhutba at 2:00pm\nIqama at 2:30pm",
   },
   
   {
