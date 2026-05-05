@@ -52,14 +52,14 @@ events = [
   },
   
   {
-    title: "Taraweeh Prayer",
+    title: "Weekly Halaqah",
     description: "",
-    date: "Every day after Isha",
+    date: "Every Friday after Maghrib, with potluck dinner",
   },
   {
-    title: "Adult and Children Quran Classes",
+    title: "Weekly Seerah Session",
     description: "",
-    date: myLink.textContent,
+    date: "Every Wednesday after Maghrib",
   },
   
   {
